@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sandip Ghosh | Portfolio</title>
+  <link rel="icon" href="images/logo.jpg" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="d-flex justify-content-between align-items-center p-3">
+    <div class="d-flex align-items-center">
+      <a href="https://github.com/QuantumCoderrr" target="_blank">
+        <img src="images/logo.jpg" alt="Logo" style="height: 40px;">
+      </a>
+      <span class="ms-2 fw-bold fs-4">Quantamania</span>
+    </div>
+    <nav>
+      <a href="#about" class="mx-3">About</a>
+      <a href="#projects" class="mx-3">Projects</a>
+      <a href="#skills" class="mx-3">Skills</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero d-flex flex-lg-row flex-column align-items-center justify-content-between p-5" id="home">
+    <div class="text-content text-lg-start text-center mb-4 box">
+      <span class="highlight">FULL-STACK DEVELOPER</span>
+      <h1>Hello, my name<br><span class="name-highlight">Sandip Ghosh</span></h1>
+      <p>Smart worker. Tech enthusiast. AI dreamer. Madridista. Team player. Visionary in the making.</p>
+      <button class="btn btn-warning me-2" onclick="scrollToProjects()">Projects</button>
+      <a href="https://www.linkedin.com/in/sandip-ghosh-b782662a5/" target="_blank" class="btn btn-outline-dark">LinkedIn</a>
+    </div>
+    <div class="image">
+      <img src="images/hero.png" alt="Sandip Photo" class="img-fluid rounded-circle hero-img"/>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about p-5 text-center">
+    <h2>About Me</h2>
+    <div class="row align-items-center box mt-3">
+      <div class="col-md-6">
+        <p>I'm Sandip, an undergrad majoring in Artificial Intelligence and Machine Learning. I build things that work and matter—AI models, full-stack apps, and clean code. A Madridista and smart worker with a goal to innovate and inspire.</p>
+        <a href="https://github.com/QuantumCoderrr" class="btn btn-warning mt-2">GitHub Profile</a>
+      </div>
+      <div class="col-md-6">
+        <img src="images/about_gif.gif" alt="About GIF" class="img-fluid rounded-circle" style="max-width: 300px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT GALLERY -->
+  <section id="projects" class="project-gallery p-5 text-center">
+    <h2>Project Gallery</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/trip.jpg" class="card-img-top" alt="Raahi AI Trip Planner">
+          <div class="card-body">
+            <h5 class="card-title">Raahi – AI Trip Planner</h5>
+            <p class="card-text">AI-powered travel itinerary planner with real-time data and custom preferences.</p>
+            <a href="https://github.com/QuantumCoderrr/Raahi" class="btn btn-outline-dark" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/calc.jpg" class="card-img-top" alt="CalcUverse">
+          <div class="card-body">
+            <h5 class="card-title">Calcuverse</h5>
+            <p class="card-text">A clean, multi-functional calculator web app built with a responsive UI, supporting standard, scientific, and programmer modes.
+            </p>
+            <a href="https://github.com/QuantumCoderrr/Calcuverse" class="btn btn-outline-dark" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/cust.jpg" class="card-img-top" alt="Customer Segmentation">
+          <div class="card-body">
+            <h5 class="card-title">Customer Segmentation</h5>
+            <p class="card-text">A machine learning model that segments customers based on spending patterns using clustering techniques for targeted marketing.</p>
+            <a href="https://github.com/QuantumCoderrr/Customer_Seg" class="btn btn-outline-dark" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/QuantumCoderrr" target="_blank" class="btn btn-dark mt-4">See more projects on my Github</a>
+  </section>
+
+  <!-- SKILL SET SECTION -->
+<section id="skills" class="skills-section p-5 text-center">
+    <div class="container">
+      <h2 class="mb-5 section-title">Tech Stack & Proficiency</h2>
+  
+      <div class="row justify-content-center">
+        <!-- Skill Item -->
+        <div class="col-md-6 mb-4 text-start">
+          <h5 class="skill-title">HTML</h5>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 95%">95%</div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mb-4 text-start">
+          <h5 class="skill-title">CSS / Bootstrap / SCSS</h5>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 90%">90%</div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mb-4 text-start">
+          <h5 class="skill-title">JavaScript</h5>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 85%">85%</div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mb-4 text-start">
+          <h5 class="skill-title">React</h5>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 75%">75%</div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mb-4 text-start">
+          <h5 class="skill-title">Node.js / Express</h5>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 70%">70%</div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mb-4 text-start">
+          <h5 class="skill-title">Python / AI-ML</h5>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 80%">80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- FOOTER -->
+  <footer class="text-center p-4 mt-5 bg-warning text-dark">
+    <div class="mb-2">
+      <a href="https://www.instagram.com/sandiipghosh/"><img src="images/instagram.png" alt="Instagram" class="footer-icon"></a>
+      <a href="https://www.linkedin.com/in/sandip-ghosh-b782662a5/"><img src="images/linkedin.png" alt="LinkedIn" class="footer-icon"></a>
+      <a href="mailto:sandipghosh0801@gmail.com"><img src="images/email.png" alt="Email" class="footer-icon"></a>
+    </div>
+    <p>&copy; 2025 Sandip Ghosh. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
